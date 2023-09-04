@@ -1,4 +1,4 @@
-                                                                                                Form Component
+                                                        Form Component
 
 `Form` component is responsible for rendering a form that collects various details from users, such as email, education, work experience, English language scores, and financial information related to tuition fees and the Guaranteed Investment Certificate (GIC) program. It's a crucial part of your "Customized SOP Generator" project.
 
