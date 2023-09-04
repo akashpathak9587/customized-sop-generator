@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container border border-dark">
+      <table class="table">
+        <tr> <td>Email: </td> <td> {{formData.email}}</td></tr>
+        <tr> <td>Name: </td> <td> {{formData.name}}</td></tr>
+        <tr> <td>Age: </td> <td> {{formData.age}}</td></tr>
+        <tr>
+          <td>Highest Level of Education : </td>
+          <td> {{formData.education}}</td></tr>
+        <tr>
+          <td>Institute where you completed your highest level of education?
+          </td>
+          <td> {{formData.institute}}</td></tr>
+        <tr>
+          <td>What did you study? </td>
+          <td> {{formData.studyStream}}</td></tr>
+        <tr>
+          <td>Do you have any relevant work experience? </td>
+          <td> {{formData.experience}}</td></tr>
+        <tr>
+          <td>What institute did you get admitted to in Canada? </td>
+          <td> {{formData.canadaInstitute}}</td></tr>
+        <tr>
+          <td>What is your program of study in Canada? </td>
+          <td> {{formData.studyProg}}</td></tr>
+        <tr>
+          <td>Which country are you applying from? </td>
+          <td> {{formData.originCountry}}</td></tr>
+        <tr>
+          <td>What are your future goals? </td>
+          <td> {{formData.goals}}</td></tr>
+        <tr>
+          <td>English Scores - Listening </td>
+          <td> {{formData.listeningScore}}</td></tr>
+        <tr>
+          <td>English Scores - Reading </td>
+          <td> {{formData.readingScore}}</td></tr>
+        <tr>
+          <td>English Scores - Speaking </td>
+          <td> {{formData.speakingScore}}</td></tr>
+        <tr>
+          <td>English Scores - Writing </td>
+          <td> {{formData.writingScore}}</td></tr>
+        <tr>
+          <td>Did you pay your first year tuition? </td>
+          <td> {{formData.fee}}</td></tr>
+        <tr>
+          <td>How much tuition fee did you pay? </td>
+          <td> {{formData.amount}}</td></tr>
+        <tr> <td>Did you do a GIC? </td> <td> {{formData.gic}}</td></tr>
+        <tr>
+          <td>How much did you pay towards GIC? </td>
+          <td> {{formData.gicAmount}}</td></tr>
+        <tr></tr>
+      </table>
+    </div>
+
+  </body>
+</html>
