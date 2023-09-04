@@ -7,31 +7,17 @@ customized-sop-generator/
   │   ├── public/              // Public assets and HTML template
   │   ├── src/                 // Source code
   │   │   ├── components/      // Reusable React components
-  │   │   ├── pages/           // Page components (e.g., Home, SOPEditor)
-  │   │   ├── services/        // API service functions and helpers
-  │   │   ├── assets/          // Images, fonts, and other assets
   │   │   ├── App.js           // Main application component
-  │   │   ├── index.js         // Entry point for React rendering
-  │   │   └── ...              // Other project-related files and directories
+  │   │   └── index.js        // Entry point for React rendering
   │   ├── package.json         // Frontend project configuration
-  │   ├── package-lock.json    // Lock file for precise dependency versions
-  │   └── ...                  // Other frontend-related files
+  │   └── package-lock.json    // Lock file for precise dependency versions
   ├── server/                  // Node.js Backend
   │   ├── node_modules/        // Dependencies installed by npm or yarn
-  │   ├── routes/              // API route handlers
-  │   ├── controllers/         // Logic for handling requests
-  │   ├── models/              // Data models (e.g., SOP, User)
-  │   ├── config/              // Configuration files (e.g., database, environment)
-  │   ├── middleware/          // Custom middleware functions
-  │   ├── utils/               // Utility functions and helpers
-  │   ├── app.js               // Express.js application setup
   │   ├── server.js            // Entry point for the Node.js server
   │   ├── package.json         // Backend project configuration
-  │   ├── package-lock.json    // Lock file for precise dependency versions
-  │   └── ...                  // Other backend-related files
+  │   └── package-lock.json    // Lock file for precise dependency versions
   ├── .gitignore               // List of files and directories to ignore in Git
-  ├── README.md                // Project documentation
-  └── ...                      // Other project-related files
+  └── README.md                // Project documentation
 ```
 
 **Directory Structure Overview:**
@@ -46,12 +32,6 @@ customized-sop-generator/
 
     - **`components/`**: Reusable React components used throughout the frontend.
 
-    - **`pages/`**: Page-level components that represent different views or routes in the application.
-
-    - **`services/`**: API service functions and helpers for making requests to the backend.
-
-    - **`assets/`**: Images, fonts, and other assets used in the frontend.
-
     - **`App.js`**: The main component serving as the entry point for the React application.
 
     - **`index.js`**: The entry point for rendering the React app.
@@ -59,18 +39,6 @@ customized-sop-generator/
 - **`server/`**: This directory contains the Node.js backend of the project.
 
   - **`node_modules/`**: Dependencies installed by npm or yarn for the Node.js backend.
-
-  - **`routes/`**: API route handlers for handling various endpoints.
-
-  - **`controllers/`**: Logic for handling requests, often corresponding to routes.
-
-  - **`models/`**: Data models, such as `SOP` and `User`, defining the structure of data stored in the database.
-
-  - **`config/`**: Configuration files, such as database configuration and environment variables.
-
-  - **`middleware/`**: Custom middleware functions for handling requests and adding functionalities.
-
-  - **`utils/`**: Utility functions and helper modules.
 
   - **`app.js`**: The setup for the Express.js application.
 
