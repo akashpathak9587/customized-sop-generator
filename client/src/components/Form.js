@@ -51,6 +51,29 @@ function Form() {
       fee: value,
     });
   };
+  const resetForm = () => {
+    setFormData({
+      email: "",
+      name: "",
+      age: "",
+      education: "",
+      institute: "",
+      studyStream: "",
+      experience: "",
+      canadaInstitute: "",
+      studyProg: "",
+      originCountry: "",
+      goals: "",
+      listeningScore: "",
+      readingScore: "",
+      speakingScore: "",
+      writingScore: "",
+      fee: "",
+      amount: "",
+      gic: "",
+      gicAmount: "",
+    });
+  };
 
   const handleGicRadioChange = (e) => {
     const value = e.target.value;
@@ -336,9 +359,12 @@ function Form() {
           <button type="submit" className="btn btn-primary">
             Submit
           </button>
-          <button type="reset" className="btn text-primary">
-            clear form
-          </button>
+          <input
+            type="reset"
+            className="btn text-primary"
+            onClick={() => resetForm()}
+            value="reset"
+          />
         </div>
       </form>
     </div>
