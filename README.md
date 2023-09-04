@@ -83,7 +83,7 @@ Setting up a development environment for the "Customized SOP Generator" React pr
 - Use the `git clone` command followed by the repository URL:
 
   ```
-  git clone https://github.com/yourusername/customized-sop-generator.git
+  git clone https://github.com/akashpathak9587/customized-sop-generator.git
   ```
 
 - Navigate to the project directory using the `cd` command:
