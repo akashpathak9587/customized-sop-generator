@@ -1,3 +1,33 @@
+**Tech Stack Used:**
+
+1. **React**: The core frontend library for building user interfaces. React's component-based architecture allows for the creation of reusable UI elements.
+
+2. **Node.js**: Used on the backend to create a server for handling API requests and business logic.
+
+3. **Express.js**: A web application framework for Node.js, providing robust routing and middleware capabilities for the backend.
+
+4. **Nodemailer**: A Node.js module for sending email notifications. Used for sending email confirmations and notifications to users.
+
+5. **Nodemailer-Express-Handlebars**: A package that integrates Handlebars templates with Nodemailer to generate and send HTML emails.
+
+6. **Axios**: A promise-based HTTP client for making API requests from the React frontend to the Node.js backend.
+
+**Design Practices:**
+
+1. **Component-Based Architecture**: The project follows a component-based architecture where UI elements are encapsulated within reusable React components. This promotes modularity and maintainability.
+
+2. **State Management (if applicable)**: Depending on the project's complexity, state management may be implemented using tools like React Context API or Redux to centralize and manage application state.
+
+3. **Responsive Design**: The user interface is designed to be responsive, ensuring a consistent and user-friendly experience across various screen sizes and devices.
+
+4. **Environmental Configuration**: Sensitive information like email credentials and API keys is stored securely using environment variables to protect sensitive data.
+
+**Other Notable Aspects:**
+
+1. **Email Notifications**: The project leverages Nodemailer and Nodemailer-Express-Handlebars to send email notifications to users, enhancing user engagement and providing confirmation of actions.
+
+2. **Form Handling**: The project includes form handling for user input. Data submitted via forms is processed on the server, demonstrating data validation and interaction with the backend.
+
 Certainly! Here's a description of the directory structure for the "Customized SOP Generator" project, which combines React for the frontend and Node.js for the backend:
 
 ```plaintext
